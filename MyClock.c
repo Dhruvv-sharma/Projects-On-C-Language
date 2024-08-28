@@ -6,7 +6,6 @@
 int main(){
     int hour,minute,second;
     hour=minute=second=0;
-
     while(1){
         // Clear output Screen
         system("cls");
@@ -34,6 +33,4 @@ int main(){
         sleep(1);
     }
         return 0;
-
-
 }
