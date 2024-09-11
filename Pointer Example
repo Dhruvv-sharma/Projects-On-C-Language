@@ -1,0 +1,14 @@
+//W.A.P to print all the letter in english alphabet using a pointer.
+#include<stdio.h>
+int main()
+{
+    char x='A';
+    char y= 'Z';
+    char *xptr = &x;
+    char *yptr = &y;
+    for(char i = *xptr ; i <= *yptr ; i++)
+    {
+        printf("%c   ",i);
+    }
+    return 0;
+}
