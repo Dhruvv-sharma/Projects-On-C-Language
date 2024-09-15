@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    char AAA;
+    printf("Enter a for Maths,b for Science or z for both");
+    scanf("%c",&AAA);
+    switch (AAA)
+    {
+    case 'a':printf("You Won 20");
+        break;
+    case 'b':printf("You Won 25");
+        break;
+    case 'z':printf("Won 60");
+        break;
+    default:printf("Not a vilid Statement");
+    }
+    return 0;
+}
