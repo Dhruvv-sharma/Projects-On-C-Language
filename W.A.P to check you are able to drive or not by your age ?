@@ -1,0 +1,13 @@
+// W.A.P to check you are able to drive or not by your age ?(By Using If/Else)
+#include<stdio.h>
+int main(){
+    int age;
+    printf("Enter Your Age : ");
+    scanf("%d",&age);
+    if(age > 18){
+        printf("You are able to Drive.");
+    }else{
+        printf("You aren't able to Drive.");
+    }
+    return 0;
+}
