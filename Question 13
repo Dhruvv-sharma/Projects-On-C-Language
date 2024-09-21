@@ -1,3 +1,4 @@
+//W.A.P to enter price of 3 items & print there final cost with 18% GST (By using Array)
 #include<stdio.h>
 int main()
 {  
