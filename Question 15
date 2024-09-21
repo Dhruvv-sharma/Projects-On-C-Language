@@ -1,7 +1,6 @@
 //W.A funtion to find squareroot of a number ? 
 #include<stdio.h>
 int sqr(int n);
-
 int main()
 {   int n;
     printf("Enter a Number : ");
