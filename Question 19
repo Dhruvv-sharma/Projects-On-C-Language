@@ -1,0 +1,17 @@
+// Keep taking number as input from user until user enter a odd number?
+#include<stdio.h>
+int main(){
+    int n;
+    do{
+    printf("Enter a Number : ");
+    scanf("%d",&n);
+    if(n%2 != 0)
+    {
+        break;
+    }
+    printf("Locked\n");
+    }
+    while(1);
+    printf("Unlock");
+    return 0;
+}
