@@ -1,0 +1,13 @@
+//The continue statement in C is a jump statement that is used to bring the program control to the start of the loop.
+//We can use the continue statement in the while loop, for loop, or do..while loop to alter the normal flow of the program execution.
+//Unlike break, it cannot be used with a C switch case.
+#include<stdio.h>
+int main(){
+    for(int i = 0;i<10;i++){
+        if(i==3){
+            continue;
+        }
+        printf("%d\n",i);
+    }
+    return 0;
+}
