@@ -1,0 +1,17 @@
+//Write a program to find maximum number
+//between two number using a pointer?
+#include<stdio.h>
+int main(){
+    int a,b,*aptr,*bptr,*large;
+    printf("Enter  number for A and B : ");
+    scanf("%d %d",&a,&b);
+    aptr = &a;
+    bptr = &b;
+    if(*aptr>*bptr){
+        large=aptr;
+    }else if(*aptr<*bptr){
+        large = bptr;
+    }
+    printf("Largest Number is : %d",*large);
+    return 0;
+}
